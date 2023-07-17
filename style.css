@@ -1,4 +1,4 @@
-.black-topbott-bars {
+.black-top-bar {
     background-color: #000000;
     height: 109px;
 }
@@ -26,7 +26,7 @@
 .links {
     /* border: 1px solid #fff; */
     font-size: 13pt;
-    color: #BABBBD;    
+    color: #BABBBD;
     display: flex;
     gap: 30px;
 }
@@ -74,4 +74,92 @@
     align-items: center;
     justify-content: center;
     width: 50%;
+}
+
+.section2 {
+    background-color: white;
+    height: 470px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.random-info-heading {
+    /* border: 1px solid #fff; */
+    display: flex;
+    justify-content: center;
+    font-size: 25pt;
+    font-weight: bold;
+    padding: 45px 0px;
+}
+
+.blue-box-container {
+    /* border: 1px solid #000; */
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+}
+
+.blue-box-1,
+.blue-box-2,
+.blue-box-3,
+.blue-box-4 {
+    display: flex;
+    border: 4px solid rgb(47, 106, 244);
+    border-radius: 15px;
+    padding: 75px;
+}
+
+.blue-box-subtext-container {
+    /* border: 1px solid #000; */
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 0px 290px;
+}
+
+.blue-box-subtext-1,
+.blue-box-subtext-2,
+.blue-box-subtext-3,
+.blue-box-subtext-4 {
+    /* border: 1px solid #000; */
+    display: flex;
+    padding: 10px;
+    color: #999999;
+    text-align: center;    
+}
+
+
+
+
+
+
+
+
+
+
+
+.section3 {
+    background-color: rgb(224, 225, 230);
+    height: 405px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.section4 {
+    background-color: white;
+    height: 330px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.section5 {
+    background-color: #233042;
+    height: 95px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.black-bott-bar {
+    background-color: #000000;
+    height: 109px;
 }
