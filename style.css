@@ -97,6 +97,14 @@
     display: flex;
     justify-content: center;
     gap: 45px;
+    margin: 0px 280px;
+}
+
+.group1,
+.group2,
+.group3,
+.group4 {
+    flex: 0 0;
 }
 
 .blue-box-1,
@@ -109,21 +117,13 @@
     padding: 75px;
 }
 
-.blue-box-subtext-container {
-    /* border: 1px solid #000; */
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    margin: 0px 290px;
-}
-
 .blue-box-subtext-1,
 .blue-box-subtext-2,
 .blue-box-subtext-3,
 .blue-box-subtext-4 {
     /* border: 1px solid #000; */
     display: flex;
-    padding: 10px;
+    padding: 5px;
     color: #999999;
     text-align: center;    
 }
