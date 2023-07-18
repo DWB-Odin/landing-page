@@ -128,21 +128,29 @@
     text-align: center;    
 }
 
-
-
-
-
-
-
-
-
-
-
 .section3 {
     background-color: rgb(224, 225, 230);
     height: 405px;
     font-family:Arial, Helvetica, sans-serif;
     color: black;
+}
+
+.inspired-quote {
+    display: flex;
+    justify-content: center;
+    font-size: 25pt;
+    color: #6e6e6e;
+    font-style: italic;
+    margin: 0px 300px 0px;
+    padding: 120px 0px 10px;
+}
+
+.quote-credit {
+    display: flex;
+    justify-content: end;
+    font-size: 16pt;
+    font-weight: bold;
+    margin: 0px 320px;
 }
 
 .section4 {
