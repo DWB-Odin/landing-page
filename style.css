@@ -158,6 +158,44 @@
     height: 330px;
     font-family:Arial, Helvetica, sans-serif;
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blue-box-background {
+    /* border: 1px solid #000; */
+    background-color:rgb(47, 106, 244);
+    border-radius: 10px;   
+}
+
+.box-container {
+    /* border: 1px solid #000; */
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 0px;
+}
+
+.left-text-blue-container {
+    padding: 50px 200px 50px 100px;   
+}
+
+.action {
+    font-size: 18pt;
+    font-weight: bold;    
+}
+
+.sign-up-text {
+    color: #BABBBD;
+}
+
+.right-button-container {
+    padding-right: 100px;    
+}
+
+.right-button-container .sign-up-button {
+    border: 2px solid #fff;
 }
 
 .section5 {
@@ -165,6 +203,15 @@
     height: 95px;
     font-family:Arial, Helvetica, sans-serif;
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.copyright {
+    color: #BABBBD;
+    display: flex;
+    font-size: 12pt;
 }
 
 .black-bott-bar {
